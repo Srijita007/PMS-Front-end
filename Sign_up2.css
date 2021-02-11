@@ -8,7 +8,7 @@ h1{
 }
 #form_body1{
     /* background-color: rgba(0, 0, 0, 0.3); */
-    border: 1px solid rgb(127, 255, 212, 1);
+    border: 1px solid rgba(0, 0, 0);
     border-radius: 15px 15px 0 0;
     width: 45em;
     font-family: 'Balsamiq Sans', cursive;
@@ -20,8 +20,8 @@ h1{
 
 }
 #form_body2{
-    background-color: rgb(127, 255, 212, 0.3);
-    border: 1px solid rgb(127, 255, 212, 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(0, 0, 0);
     border-top: none;
     /* border-radius: 20px; */
     width: 45em;
@@ -33,7 +33,7 @@ h1{
 }
 
 #head{
-    background-color: rgb(0, 0, 0,0.6);
+    background-color: rgb(0, 0, 0, 0.6);
     margin: 0;
     padding: 6px;
     padding-left: 30px;
