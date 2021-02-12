@@ -12,10 +12,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  background-image: url(../Resources/Endless-Constellation.svg);
 }
 
 .form {
+  background: gainsboro;
+  opacity: 20%;
   z-index: 1;
   width: 400px;
   font-family: "Poppins", sans-serif;
@@ -23,13 +25,15 @@ body {
   text-align: center;
   padding: 2%;
   border-radius: 15px;
-  background: gainsboro;
-  transition: 5s;
+  transition: transform 1s,  opacity 1s;
 }
-.form:hover,
-.form:active {
+.form:hover {
+  opacity: 100%;
   background: linear-gradient(to bottom right, #ccccff, #b3ecff, #ccccff);
+  transform: scale(1.2);
+  transition: transform 1s,  opacity 1s;
 }
+
 .form i {
   z-index: 1;
   color: white;
@@ -38,26 +42,15 @@ body {
 }
 
 .form .user-input {
-  width: 320px;
+  position: inherit;
+  width: 340px;
   height: 55px;
   margin-bottom: 30px;
   outline: none;
   border: none;
-  background: white;
-  color: #fff;
   font-size: 18px;
   text-align: center;
   border-radius: 5px;
-  transition: 0.5s;
-  transition-property: border-left, border-right, box-shadow;
-}
-
-.form .user-input:hover,
-.form .user-input:focus,
-.form .user-input:active {
-  border: solid 2px #4285f4;
-  /* border-right: solid 8px #4285f4; */
-  transition: all;
 }
 
 .form .options-01 {
@@ -78,21 +71,25 @@ body {
   float: left;
   cursor: pointer;
 }
+
 .form .options-01 a {
   color: black;
   font-size: 14px;
-  font-style: italic;
+  font-style: cursive;
   float: right;
 }
 
+.login_container {
+  padding: 30px 5px 5px 5px;
+}
+
 .form .btn {
-  outline: none;
-  border: none;
+  background: #4285f4;
   width: 320px;
   height: 55px;
-  background: #4285f4;
   color: #fff;
   font-size: 18px;
+  font-weight: bold;
   letter-spacing: 1px;
   border-radius: 5px;
   cursor: pointer;
@@ -101,8 +98,8 @@ body {
 }
 
 .form .btn:hover {
-  border-left: solid 8px rgba(255, 255, 255, 0.5);
-  border-right: solid 8px rgba(255, 255, 255, 0.5);
+  border-left: solid 8px blue;
+  border-right: solid 8px blue;
 }
 
 .form .options-02 {
