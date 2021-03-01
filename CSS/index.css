@@ -44,7 +44,7 @@ body section div span.Registration_Buttons {
   transition: 0.4s;
 }
 
-body section div span.Registration_Buttons:hover{
+body section div span.Registration_Buttons:hover {
   background-color: transparent;
   border: 3px solid #0b4870;
   cursor: pointer;
@@ -98,7 +98,6 @@ body section .Landing_Body_Introduction .Landing_Text_Container .Landing_Box {
   z-index: 1;
   filter: blur(30%);
   opacity: 50%;
-
 }
 
 body section .Landing_Body_Introduction .Landing_Text_Container .Landing_Text {
