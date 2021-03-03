@@ -23,12 +23,13 @@ h1{
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgb(0, 0, 0);
     border-top: none;
-    /* border-radius: 20px; */
+    border-radius: 0 0 20px 20px;
     width: 45em;
     font-family: 'Balsamiq Sans', cursive;
     padding: 10px;
+    padding-bottom: 70px;
     color: white;
-    margin-bottom: 8%;
+    margin-bottom: 20%;
 
 }
 
@@ -58,6 +59,12 @@ label,h6,p,h2{
 
 #terms{
     float: right;
+    margin-top: 10px;
+    color: white;
+}
+
+#x{
+    margin-top: 10px;
 }
 
 /* #sel-1{
@@ -68,5 +75,8 @@ label,h6,p,h2{
     background-color: #3BAF9F;
     color: white;
     border: none;
+    margin: 30px 0 0 300px;
+    text-align: center;
+    
 
 }
