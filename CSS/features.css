@@ -24,6 +24,164 @@ src: url(../Resources/Fonts/ANTQUAB.ttf);
 }
 
 
+#features{
+    width: 100%;
+    height: 100%;  
+    /* background-color: aquamarine; */
+}
+
+#features_heading{
+    padding-bottom: 2%;
+    background-image: linear-gradient(
+    to right,
+    rgba(183, 33, 255, 0.5),
+    rgba(8, 174, 234, 0.5)
+  );
+}
+
+#features_h1{
+    font-family: Salsa_reg;
+    color: #F2EA02;
+    padding: 4% 2% 0% 6%;
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+    margin: 0%;
+}
+
+.feature_set_1{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10%;
+    background-image: linear-gradient(
+    to bottom right,
+    rgba(183, 33, 255, 0.5),
+    rgba(8, 174, 234, 0.5),
+    rgba(42, 245, 152, 0.3)
+  );
+}
+
+.feature_set_2{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 10%;
+    background-image: linear-gradient(
+    to top right,
+    rgba(183, 33, 255, 0.5),
+    rgba(8, 174, 234, 0.5),
+    rgba(42, 245, 152, 0.3)
+  );
+}
+
+.feature_set_3{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+    background-image: linear-gradient(
+    to bottom right,
+    rgba(183, 33, 255, 0.5),
+    rgba(8, 174, 234, 0.5),
+    rgba(42, 245, 152, 0.3)
+  );
+}
+
+.feature_box{
+    z-index: 1;
+    filter: blur(30%);
+    opacity: 50%;
+}
+
+.features_bullet_point{
+    margin: 0% 1%;
+    width: 4%;
+}
+
+.features_titles{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 5%;
+    color: #0E538C;
+    font-size: x-large;
+    padding: 8% 0 0 0;
+}
+
+.features_texts{
+    font-family: Book_antiqua;
+    font-size: large;
+    line-height: 80%;
+    color: #360151;
+}
+
+.odd_feature .features_image{
+    position: absolute;
+    z-index: 1;
+    float: right;
+}
+
+.even_feature .features_image{
+    position: absolute;
+    z-index: 1;
+    float: right;
+}
+
+.feature_container1{
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    /* background-color: #0E538C; */
+    padding: 1% 5%;
+    top: 120%;
+}
+
+.feature_container2{
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    /* background-color: #0E538C; */
+    padding: 1% 5%;
+    top: 180%;
+}
+
+.feature_container3{
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    /* background-color: #0E538C; */
+    padding: 1% 5%;
+    top: 242%;
+}
+
+.feature_container4{
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    /* background-color: #0E538C; */
+    padding: 1% 5%;
+    top: 302%;
+}
+
+.feature_container5{
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    /* background-color: #0E538C; */
+    padding: 1% 5%;
+    top: 365%;
+}
+
+.feature_container6{
+    width: 90%;
+    position: absolute;
+    z-index: 2;
+    /* background-color: #0E538C; */
+    padding: 1% 5%;
+    top: 427%;
+}
+
+.even_feature .col-8{
+    text-align: end;
+} 
+=======
+
 
 #features_h1{
     font-family: Salsa_reg;
@@ -115,3 +273,4 @@ src: url(../Resources/Fonts/ANTQUAB.ttf);
     width: 60vh;
     
 }
+
