@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="456" height="399" viewBox="0 0 456 399">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="down_triangle" data-name="down triangle" class="cls-1" d="M228,0,456,399H0Z" transform="translate(456 399) rotate(180)"/>
+</svg>

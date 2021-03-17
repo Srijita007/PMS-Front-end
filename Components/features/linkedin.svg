@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffb750;
+      }
+    </style>
+  </defs>
+  <g id="_010-linkedin" data-name="010-linkedin" transform="translate(0 0.668)">
+    <path id="Path_690" data-name="Path 690" class="cls-1" d="M6.064-.668A5.707,5.707,0,0,0,0,5.161a5.668,5.668,0,0,0,5.923,5.828h.07a5.707,5.707,0,0,0,6.064-5.828A5.687,5.687,0,0,0,6.064-.668Zm0,0"/>
+    <path id="Path_691" data-name="Path 691" class="cls-1" d="M8.109,198.313H18.828v33.736H8.109Zm0,0" transform="translate(-7.476 -182.717)"/>
+    <path id="Path_692" data-name="Path 692" class="cls-1" d="M241.593,188.625c-5.782,0-9.659,5.684-9.659,5.684v-4.893H221.215v33.736h10.718v-18.84a8.015,8.015,0,0,1,.353-2.737,5.9,5.9,0,0,1,5.5-4.1c3.878,0,5.43,3.094,5.43,7.629v18.048h10.717V203.809c0-10.362-5.288-15.184-12.339-15.184Zm0,0" transform="translate(-203.933 -173.821)"/>
+  </g>
+</svg>

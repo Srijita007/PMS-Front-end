@@ -24,6 +24,45 @@ src: url(../Resources/Fonts/ANTQUAB.ttf);
 }
 
 
+/* ==============
+        Global 
+    =============*/
+
+    .headings{
+        font-family: Salsa_reg;
+        color: #FFB750;
+        /* margin-bottom: 1em; */
+        padding: 1em 1em 0.5em 0;
+        font-size: 50px;
+        text-shadow: 2px 2px rgba(0,0,0,0.7);
+        text-transform: uppercase;
+    }
+    
+    .background_even {
+        padding-left: 4%;
+        padding-right: 4%;
+        min-height: 100vh;
+        background-image: linear-gradient(
+            to bottom right,
+            rgba(183, 33, 255, 0.5),
+            rgba(8, 174, 234, 0.5),
+            rgba(42, 245, 152, 0.3)
+        );
+    }
+    
+    .background_odd {
+        padding-left: 4%;
+        padding-right: 4%;
+        min-height: 100vh;
+        background-image: linear-gradient(
+            to top right,
+            rgba(183, 33, 255, 0.5),
+            rgba(8, 174, 234, 0.5),
+            rgba(42, 245, 152, 0.3)
+        );
+        }  
+
+
 #features{
     width: 100%;  
     /* background-color: aquamarine; */
@@ -216,5 +255,155 @@ src: url(../Resources/Fonts/ANTQUAB.ttf);
     left: 3%;
     float: left;
     transform: scale(1.02);
+}
+
+
+
+
+
+/* =================
+        Services
+  ================== */
+
+  #services_heading{
+    text-align: right;
+}
+
+/* .services_images{
+    position: relative;
+} */
+
+.services_notes img{
+    margin: 5% 0;
+}
+.services_images img{
+    margin: 15% 2%;
+}
+
+/* =================
+        Our Team
+  ================== */
+
+
+#team_heading{
+    text-align: center;
+    font-weight: 100;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.each_member{
+    text-align: center;
+}
+
+.member_pic img{
+    align-items: center;
+    background-color: white;
+    height: 40vh;
+    width: 40vh;
+    margin: 0 0 2% 0;
+}
+
+/* #row1 .member_pic img{
+    height: 70%;
+    width: 70%;
+} */
+
+/* #row2 .member_pic img{
+    height: 44.5%;
+    width: 44.5%;
+} */
+
+.member_name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+
+.member_details{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+
+.members_social_media_links{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0 20% 0;
+}
+
+.social_media_links{
+    background-color: #0E538C;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 3%;
+    
+}
+.social_media_links:hover{
+    cursor: pointer;
+}
+
+.social_icons{
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0.7rem;
+}
+
+/* =================
+        Statistics
+  ================== */
+
+.statistics_body .background_even{
+    height: 50vh;
+}
+.each_stat {
+    position: relative;
+    background-color: red;
+}
+.triangle_div{
+    position: absolute;
+    text-align: center;
+    background-color: blue;
+    /* z-index: -1; */
+}
+.stat_triangles{
+    height: 80%;
+    width: 80%;
+    opacity: 50%;
+    min-height: 300px;
+    min-width: 300px;
+
+}
+.each_stat p{
+    position: relative;
+    z-index: 0;
+}
+.stat_no{
+    font-family: Stencil;
+    font-size: 6em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.stat_name{
+    font-family: Book_antiqua;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin: 0;
+}
+
+#working_hour_name{
+    margin: -8% 0 0 0;
+    line-height: 1em;
 }
 
