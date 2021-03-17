@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Salsa_reg;
+    src: url(../Resources/Fonts/Salsa-Regular.ttf);
+  }
+
+.our_team{
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(183, 33, 255, 0.5),
+        rgba(8, 174, 234, 0.5),
+        rgba(42, 245, 152, 0.3)
+    );
+}
+
+#team_heading{
+    font-family: Salsa_reg;
+    color: #FFB750;
+    padding: 0.1em 1em 0.5em 0;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+
+}
+
+.member_pic img{
+    height: 160px;
+    width: 160px;
+    margin: 10px 30%;
+    align-items: center;
+    background-color: red;
+}
+
+.each_member{
+    text-align: center;
+}
+
+/* .member_name{
+    text-align: center;
+} */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
