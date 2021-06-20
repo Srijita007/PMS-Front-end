@@ -1,0 +1,107 @@
+/* .team_container .col-3:nth-child(odd) {
+  background-color: aqua;
+}
+
+.team_container .col-3:nth-child(even) {
+  background-color: green;
+} */
+
+#our_team {
+  position: relative;
+}
+
+#team_heading {
+  padding-bottom: 2%;
+  padding-right: 4%;
+  background-image: linear-gradient(
+    to right,
+    rgba(8, 174, 234, 0.5),
+    rgba(42, 245, 152, 0.3)
+  );
+}
+
+#team_h1 {
+  text-align: center;
+  color: orange;
+}
+
+.team_container {
+  /* position: relative; */
+  background-image: linear-gradient(
+    to top right,
+    rgba(183, 33, 255, 0.5),
+    rgba(8, 174, 234, 0.5),
+    rgba(42, 245, 152, 0.3)
+  );
+}
+
+#team_container .row {
+  position: relative;
+}
+
+#team_container .col-3 {
+  position: relative;
+}
+
+.subham {
+  background-image: url("../Resources/Images/our team images/dummy.png");
+}
+.rohan {
+  background-image: url("../Resources/Images/our team images/dummy.png");
+}
+.debayan {
+  background-image: url("../Resources/Images/our team images/dummy.png");
+}
+.srijita {
+  background-image: url("../Resources/Images/our team images/dummy.png");
+}
+.monosij {
+  background-image: url("../Resources/Images/our team images/dummy.png");
+}
+
+.member_image {
+  background-size: 20vw;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+.team_social_icons {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0%;
+  margin: 0%;
+  width: 25%;
+  left: 38%;
+  top: 55%;
+  /* background-color: blue; */
+  justify-content: center;
+}
+
+.team_social_icons img {
+}
+
+.team_social_icons img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.team_info {
+  position: relative;
+  margin-top: 80%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+.member_name {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.member_details {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 1.4vw;
+}

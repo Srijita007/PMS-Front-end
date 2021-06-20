@@ -1,0 +1,122 @@
+#services_heading {
+  padding-bottom: 2%;
+  background-image: linear-gradient(
+    to right,
+    rgba(8, 174, 234, 0.5),
+    rgba(42, 245, 152, 0.3)
+  );
+}
+
+#services_h1 {
+  text-align: right;
+  padding-right: 6%;
+  color: orange;
+}
+
+.services_set {
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 0%;
+}
+
+.odd_service {
+  /* background-color: blue; */
+  position: relative;
+}
+
+.even_service {
+  /* background-color: red; */
+  position: relative;
+}
+
+.services_bullet_point {
+  width: 7%;
+}
+
+.services_titles {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #0e538c;
+  font-size: 1.7vw;
+  padding: 0% 0% 8% 0%;
+}
+
+.odd_service .services_titles {
+  text-align: end;
+}
+
+.services_texts {
+  font-family: Book_antiqua;
+  font-size: 1.3vw;
+  line-height: 150%;
+  color: #360151;
+}
+
+.odd_service .services_texts {
+  text-align: end;
+}
+
+.odd_service .services_image {
+  width: 90%;
+  float: right;
+}
+
+.even_service .services_image {
+  width: 90%;
+  float: left;
+}
+
+.freelances_startups {
+  background-image: url("../Components/services/Red_pinned_note.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 38vw;
+  padding: 10% 6% 2% 2%;
+  text-align: justify;
+  transform: rotate(-5deg);
+  /* background-color: aqua; */
+}
+
+.small_business {
+  background-image: url("../Components/services/Blue_pinned_note.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 38vw;
+  padding: 10% 6% 2% 2%;
+  text-align: justify;
+  transform: rotate(9deg);
+  /* background-color: aqua; */
+}
+
+.large_teams {
+  background-image: url("../Components/services/Green_pinned_note.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 38vw;
+  padding: 10% 6% 2% 3%;
+  text-align: justify;
+  /* background-color: aqua; */
+}
+
+.large_teams .services_texts {
+  transform: rotate(-4deg);
+}
+
+.large_teams .services_titles {
+  transform: rotate(-4deg);
+}
+
+.enterprises {
+  background-image: url("../Components/services/Red_clipped_note.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 38vw;
+  padding: 14% 3% 2% 2%;
+  text-align: justify;
+  transform: rotate(10deg);
+  /* background-color: aqua; */
+}
+
+.services_set_2 {
+  padding-bottom: 5%;
+}
